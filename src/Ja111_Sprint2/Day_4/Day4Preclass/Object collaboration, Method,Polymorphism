@@ -1,0 +1,33 @@
+Object Collaboration, Method ,polymorphism
+
+=> In Object Oriented Programming Language Like Java, multiple Classes Collaborate with each other and Provide
+    Services(Solution to the particular Problem).
+    * Inside one class We can create object of other class the condition is The Classes Which will try to collaborate
+     each Other,  should be in same path.
+
+     Ex:  class A
+          {
+                  //i and funA are two non static member
+                 int i=10;
+                 void funA(){
+                      sout("Inside funA");
+                      }
+          }
+
+          //other file Demo.java
+          class Demo{
+                  public static void main(String[] args)
+                  {
+                  sout("Inside main methid of Demo");
+
+                  Demo d1=new Demo();
+                  A a1 = new A();//Object of A class (Different class)
+
+                  sout(d1);
+                  sout(a1);
+
+                  }
+           }
+
+    * We can define a class as a instance member of another class as well, by this we establish "Has-A" relationship
+      between 2 objects.
