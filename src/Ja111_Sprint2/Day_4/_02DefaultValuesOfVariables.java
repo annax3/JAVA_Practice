@@ -1,7 +1,7 @@
 package Ja111_Sprint2.Day_4;
 
 public class _02DefaultValuesOfVariables {
-    int x=10;//inside a class : instance Variable
+    int x=10;//if a variable is present inside a class : instance Variable
     //x is non-static
     int instanceVariableWithoutAValue;
     static int z=50;
