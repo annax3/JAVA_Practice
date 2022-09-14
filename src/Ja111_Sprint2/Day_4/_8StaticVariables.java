@@ -1,7 +1,7 @@
 package Ja111_Sprint2.Day_4;
 
 public class _8StaticVariables {
-    static int x;
+    static int x;//x is like a shared variable
     int y;
 
     public static void main(String[] args) {

@@ -14,7 +14,6 @@ public class _5LoadingNonStatic {
         //There are two separate Areas : 1:static 2:nonStatic;
 
 
-
     }
 
 }
