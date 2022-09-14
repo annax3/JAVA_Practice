@@ -29,8 +29,20 @@ public class Student {
         student = s1;
         System.out.println(s1);
         Student studentNUllObject=null;
-        System.out.println(studentNUllObject.name);//null.name
+        System.out.println(studentNUllObject.name);//null.name error null pointer exception
 
 
     }
 }
+//Assignment : 5 min
+/*
+ class AnotherClass{
+    public static void main(String[] args) {
+        Student s1=new Student();
+        s1.age=27;
+        s1.name="Abhinav";
+        System.out.println(bachNAme);//not printed Why ?
+    }
+}
+
+ */
