@@ -19,6 +19,7 @@ public class _1ThisKeyword {
         System.out.println(object.x);
         System.out.println(x);
         //you can not refer to this keyword from the static area
+        //System.out.println(this.x);
 
     }
 
