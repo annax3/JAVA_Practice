@@ -3,7 +3,16 @@ package Ja111_Sprint2.Day_6;
 import java.beans.JavaBean;
 
 public class _4JavaBeanPOJO {
-    //POJO : plain old java Object
+    /*
+    POJO : plain old java Object
+    It is a reusable ,purely encapsulated java class which should have following properties :
+     1.The class must be public
+     2.All the fields should be private
+     3.for each field there should be corresponding public getter and setter method.
+     4.It should have zero argument constructor
+     5.It may have parameterized constructor (It is not the minimum requirement).
+     */
+
     public static void main(String[] args) {
         JavaBean1 javaBean = new JavaBean1();
         //this won't work
@@ -49,3 +58,5 @@ class  AnotherJavaBean{
         this.y = y;
     }
 }
+//JavaBeans are used to supports the frame Work
+//All your javabeans are public
