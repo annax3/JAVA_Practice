@@ -1,0 +1,24 @@
+Five Types of inheritance
+1.single
+2.Multilevel
+3.Hierarchical
+4.Multiple
+5.Hybrid
+=> Java only  follows single level ,Multilevel and Hierarchical inheritance.
+=> But, at interface level Java follows Multiple and Hybrid inheritance.
+
+//Parent Class/Super Class and Child /Sub class
+
+    A-- Parent class or super class
+    |
+    B-- child or sub class
+
+ => Is-A RelationShip :-
+                         Bike Is-A Vehicle
+                         Dog Is-A Animal
+
+ Advantage :
+               1.Code reusability
+               2.Runtime Polymorphism
+
+ * SUper class reference and child class object(important concept)
