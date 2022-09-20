@@ -1,0 +1,12 @@
+Note : an abstract class does not have any meaning, until it is not extended by the child class. An abstract class mean
+to be extended.
+
+Ex : Animal : cat,Dog,Lion
+     i can tell you that you can show me a Animal But you can show me a Dog ,Cat, Lion
+     i say no no i want to see a Animal I don't want to see Cat DOg and Lion i want to see Animal
+     He say it is not possible because Animal is abstract(It doesn't have own existence) Because Its existence depend
+     upon its child classes.
+
+With the abstract class and abstract method we achieve abstraction in JAVA
+
+
