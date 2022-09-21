@@ -16,6 +16,7 @@ public class _4MaxItemInArray {
         System.out.println("Max :"+getMax(arr));
     }
     static int getMax(int[] array){
+        //max=maxValueInArray
         int max = Integer.MIN_VALUE;
         if(array.length==0){
             System.out.println("array is empty");
