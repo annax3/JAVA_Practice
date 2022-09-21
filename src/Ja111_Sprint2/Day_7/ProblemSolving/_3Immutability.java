@@ -10,3 +10,8 @@ public class _3Immutability {
         System.out.println(s);
     }
 }
+//Examples :
+            //STACK                    STRING pool
+       //   [0]   S           =>        String
+       // String s1=s.concat("muted");
+       //[1]      s1           =>          Stringmuted
