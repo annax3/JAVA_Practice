@@ -6,6 +6,7 @@ public class _1Collection {
     public static void main(String[] args) {
         //initial capacity, size(variable)
         List<Integer> List = new ArrayList<>();//dynamic array
+        Object[] objArray=List.toArray();
         List.add(10);
         List.add(11);
         List<Integer> anotherList = Arrays.asList(0,1,2,3,4,5);
