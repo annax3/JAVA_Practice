@@ -1,4 +1,4 @@
-package Ja111_Sprint2.Day_7.PreClass;
+package JAVA_111.Day_7.PreClass;
 
 public class _1A {
 int i=10;

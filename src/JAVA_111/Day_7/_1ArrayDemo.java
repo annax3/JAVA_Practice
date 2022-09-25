@@ -1,4 +1,4 @@
-package Ja111_Sprint2.Day_7;
+package JAVA_111.Day_7;
 
 public class _1ArrayDemo {
     public static void main(String[] args) {
