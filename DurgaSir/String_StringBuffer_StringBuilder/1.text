@@ -1,0 +1,8 @@
+##1 : In Java, strings are immutable, which means that once a string object is created, its value cannot be changed.
+      The concat() method creates a new string by appending the specified string to the end of the original string, but
+      it does not modify the original string. In this case, the concatenated string is not being assigned to s1, so when
+      you print s1, it still holds the original value of "Durga". If you want to print "Durga Software", you need to
+      assign the concatenated string to s1 like this:
+              String s1 = "Durga";
+              s1 = s1.concat("Software");
+              System.out.println(s1);
